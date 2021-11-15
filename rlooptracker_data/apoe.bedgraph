@@ -1,0 +1,17 @@
+browser position apoe.fasta:0-0
+track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
+apoe.fasta 101 831  23
+apoe.fasta 189 832  22
+apoe.fasta 573 935  21
+apoe.fasta 3155 3518  2
+apoe.fasta 3407 3583  -5
+apoe.fasta 2361 2765  -9
+apoe.fasta 2465 2743  -6
+apoe.fasta 2474 2723  -5
+apoe.fasta 101 827  29
+apoe.fasta 189 832  22
+apoe.fasta 406 935  18
+apoe.fasta 573 945  21
+apoe.fasta 643 935  13
+apoe.fasta 3407 3583  -6
+apoe.fasta 2486 2718  -4

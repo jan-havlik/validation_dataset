@@ -1,0 +1,10 @@
+browser position rhoh.fasta:0-0
+track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
+rhoh.fasta 1682 1818  3
+rhoh.fasta 2304 2505  4
+rhoh.fasta 19590 19731  6
+rhoh.fasta 29031 29239  -6
+rhoh.fasta 7122 7273  5
+rhoh.fasta 9054 9165  6
+rhoh.fasta 41627 41782  -8
+rhoh.fasta 29031 29232  -6

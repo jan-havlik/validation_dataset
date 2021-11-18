@@ -16,7 +16,7 @@ The script provides the following metrics for validation:
 Given dataset should provide following stats:
 
 
-# Validating R-loop forming signal detecton with experiemntal data
+# Validating R-loop forming signal detecton with experimental data
 
 ## Plus strand
 

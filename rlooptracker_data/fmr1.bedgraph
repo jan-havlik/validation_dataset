@@ -1,6 +1,0 @@
-browser position fmr1.fasta:0-0
-track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
-fmr1.fasta 384 633  4
-fmr1.fasta 537 704  5
-fmr1.fasta 583 746  3
-fmr1.fasta 537 718  6

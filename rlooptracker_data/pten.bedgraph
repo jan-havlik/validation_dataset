@@ -1,4 +1,0 @@
-browser position pten.fasta:0-0
-track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
-pten.fasta 271 589  5
-pten.fasta 141 504  7

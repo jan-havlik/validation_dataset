@@ -1,0 +1,10 @@
+browser position chr17:7565098-7590856
+track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
+chr17 7590411 7590624  -7
+chr17 7580086 7580248  -3
+chr17 7571185 7571334  -4
+chr17 7570882 7571045  -7
+chr17 7579409 7579534  7
+chr17 7590411 7590612  -10
+chr17 7590421 7590600  -6
+chr17 7571185 7571324  -6

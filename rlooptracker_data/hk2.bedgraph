@@ -1,3 +1,0 @@
-browser position hk2.fasta:0-0
-track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
-hk2.fasta 224 366  -2

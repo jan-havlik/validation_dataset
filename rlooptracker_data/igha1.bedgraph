@@ -1,5 +1,0 @@
-browser position igha1.fasta:0-0
-track type=bedGraph name="R-loop tracker" description="BedGraph output of R-loop-R analysis" visibility=2 color=0,128,0 useScore=1
-igha1.fasta 312 497  6
-igha1.fasta 321 497  7
-igha1.fasta 493 854  -5

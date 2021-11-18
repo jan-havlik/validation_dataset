@@ -1,0 +1,2 @@
+
+{ "downloadTime": "2021:11:18T21:28:21Z", "downloadTimeStamp": 1637270901, "genome": "hg19", "trackType": "bigBed 6", "track": "hub_124277_DRIPc_peak_NT2_Sanz_2016", "chrom": "chr14", "chromSize": 107349540, "bigDataUrl": "http:\/\/rloop.bii.a-star.edu.sg\/gb2_database\/hg19\/bb\/GSE70189_NT2_DRIPc_peaks.bb", "start": 106235440, "end": 106237742, "hub_124277_DRIPc_peak_NT2_Sanz_2016": [ ] } 

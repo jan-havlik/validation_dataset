@@ -1,11 +1,11 @@
 # Repository for data validaton between QmRLFS finder and R-loop tracker tools
 
 Each folder contains source data for the validation:
-- `source_data` folder contains sequences in `fasta` format
-- `qmrlfs_data` folder contains QmRLFS finder analyses in `bedgraph` format
+- `gene_data` folder contains raw sequences in `fasta` format
+- `experimental_data` folder contains DRIPc sequenced R-loops in `fasta` format
 - `rlooptracker_data` folder contains R-loop tracker analyses in `bedgraph` format
 
-There is also script included to obtain validation statistics for given datasets. Function `download_seq` was used for downloading sequences from the genome browser via API and the function `compare_tools` runs the validation. The output metrics are as follows:
+The script provides the following metrics for validation:
 
 - `Accuracy`
 - `Sensitivity`
@@ -14,11 +14,64 @@ There is also script included to obtain validation statistics for given datasets
 - `Matthews Correlation Coefficient`
 
 Given dataset should provide following stats:
+
+
+# Validating R-loop forming signal detecton with experiemntal data
+
+## Plus strand
+
+| Gene | RLFS predicted by DRIPc sequencing | RLFS predicted by R-loop tracker |
+|:---:|:---:|:---:|
+| Immunoglobulin | - | + |
+| MYC | + | + |
+| RHOH | - | + |
+| ACTB | + | + |
+| FMR1 | + | + |
+| SNRPN | + | + |
+| HK2 | + | + |
+| CIRH1A | + | + |
+| APOE | + | + |
+| FHIT | + | + |
+| PPM1D | + | + |
+| TP53 | - | + |
+| JTB | - | - |
+| PBX1 | + | + |
+
 ```
-Accuracy: 90.91 %
-Sensitivity: 95.50 %
-Specificity: 40.00 %
-Precision: 94.64 %
-Matthews Correlation Coefficient: 0.37
+Accuracy: 78.57 %
+Specificity: 25.00 %
+Sensitivity: 100.00 %
+Precision: 76.92 %
+Matthews Correlation Coefficient: 0.44
 ```
 
+The detection algorithm produces more False positives compared to experimental methods which can be seen in Specificity, but overall performance and accuracy is adequate.
+
+## Minus strand
+
+| Gene | RLFS predicted by DRIPc sequencing | RLFS predicted by R-loop tracker |
+|:---:|:---:|:---:|
+| Immunoglobulin | - | - |
+| MYC | - | + |
+| RHOH | + | + |
+| ACTB | + | + |
+| FMR1 | - | - |
+| SNRPN | + | - |
+| HK2 | + | + |
+| CIRH1A | + | + |
+| APOE | + | + |
+| FHIT | + | + |
+| PPM1D | - | + |
+| TP53 | + | + |
+| JTB | + | - |
+| PBX1 | - | + |
+
+```
+Accuracy: 64.29 %
+Specificity: 40.00 %
+Sensitivity: 77.78 %
+Precision: 70.00 %
+Matthews Correlation Coefficient: 0.19
+```
+
+Results for negative strand are bit worse than for the positive strand and interestingly the algorithmic detection produces more False negatives.
